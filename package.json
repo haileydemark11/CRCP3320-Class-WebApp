@@ -1,0 +1,21 @@
+{
+  "name": "crcp3320-class-webapp",
+  "version": "1.0.0",
+  "private": true, 
+  "description": "Web application example for CRCP 3320",
+  "homepage": "https://github.com/haileydemark11/CRCP3320-Class-WebApp#readme",
+  "bugs": {
+    "url": "https://github.com/haileydemark11/CRCP3320-Class-WebApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haileydemark11/CRCP3320-Class-WebApp.git"
+  },
+  "license": "MIT",
+  "author": "hailey demark",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
