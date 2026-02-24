@@ -1,7 +1,7 @@
 let backgroundColor; 
 
 // variable arrays for creating/working with polygons: 
-const totalPolygons = 10; 
+const TOTAL_POLYGONS = 10; 
 const xs = []; 
 const ys = [];  
 const rs = [];  // for radius 
@@ -42,7 +42,7 @@ function buildPolygon() {
 }
 
 function buildPolygons() {
-  for (let i = 0; i < totalPolygons; i++) {
+  for (let i = 0; i < TOTAL_POLYGONS; i++) {
     buildPolygon();
   }
 }
@@ -66,7 +66,7 @@ function drawPolygon(index) {
 }
 
 function drawPolygons() {
-  for (let i = 0; i < totalPolygons; i++) {
-    drawPolygons(i); 
+  for (let i = 0; i < TOTAL_POLYGONS; i++) {
+    drawPolygon(i); 
   }
 }
