@@ -3,9 +3,11 @@ import express from 'express';
 const app = express(); 
 const port = 3000; 
 
-app.get('/', (request, response) => {
-    response.send("Hello, World!"); 
-}); 
+app.use(express.static('public')); 
+
+// app.get('/', (request, response) => {
+//     response.send("Hello, World!"); 
+// }); 
 
 app.listen(port, () => {
     console.log(`Application listening at port ${port}`);   // using the ` ` is another way of using a string
